@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Device Model</string>
+
+    <string name="copyright" translatable="false">Copyright &#169; 2016 By_syk. All rights reserved.</string>
+
+    <string name="info">
+".......Model: %1$s
+.......Brand: %2$s
+Manufacturer: %3$s
+.........SDK: %4$d
+..Resolution: %5$d*%6$d"</string>
+
+</resources>
