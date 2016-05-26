@@ -14,4 +14,9 @@
         <item name="android:colorAccent">@color/color_accent</item>
     </style>-->
 
+    <style name="text_tap">
+        <item name="android:textColor">@color/tap_days</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
 </resources>

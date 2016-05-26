@@ -9,7 +9,7 @@
 ".......Model: %1$s
 .......Brand: %2$s
 Manufacturer: %3$s
-.........SDK: %4$d
-..Resolution: %5$d*%6$d"</string>
+.........SDK: %4$d (%5$s)
+..Resolution: %6$d*%7$d"</string>
 
 </resources>
