@@ -387,6 +387,7 @@ public class ExtraUtil {
                     default:
                         calendar.set(2015, 9, 5);
                 }
+                break;
             default:
                 calendar = null;
         }
