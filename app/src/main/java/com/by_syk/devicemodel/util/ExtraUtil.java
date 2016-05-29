@@ -2,6 +2,7 @@ package com.by_syk.devicemodel.util;
 
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Point;
 import android.os.Build;
 import android.view.Display;
@@ -418,11 +419,19 @@ public class ExtraUtil {
             return -1;
         }
 
-        return (int)((Calendar.getInstance().getTimeInMillis() - calendar.getTimeInMillis())
-                / (24 * 60 * 60 * 1000));
+        return (int) Math.ceil(((Calendar.getInstance().getTimeInMillis() - calendar.getTimeInMillis())
+                / (24 * 60 * 60 * 1000)));
     }
 
     public static int getSdkReleaseDays() {
         return getSdkReleaseDays(Build.VERSION.SDK_INT, Build.VERSION.RELEASE);
+    }
+
+    public static String getSysFlashDateStr() {
+        return convertMillisTime(Build.TIME);
+    }
+
+    public static int getSysFlashDays() {
+        return (int) Math.ceil((System.currentTimeMillis() - Build.TIME) / (24 * 60 * 60 * 1000));
     }
 }

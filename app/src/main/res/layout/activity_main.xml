@@ -8,13 +8,23 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <TextView
-        android:id="@+id/tv_days"
-        android:textSize="@dimen/text_days"
-        android:textStyle="bold"
+        android:id="@+id/tv_days_sys_ver"
+        style="@style/text_tap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        style="@style/text_tap" />
+        android:textSize="@dimen/text_days1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_days_sys_flash"
+        style="@style/text_tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_days_sys_ver"
+        android:layout_toRightOf="@id/tv_days_sys_ver"
+        android:textSize="@dimen/text_days2"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tv_info"

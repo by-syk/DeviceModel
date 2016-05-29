@@ -2,7 +2,8 @@
 <resources>
 
     <dimen name="text_info">18sp</dimen>
-    <dimen name="text_days">144sp</dimen>
+    <dimen name="text_days1">144sp</dimen>
+    <dimen name="text_days2">34sp</dimen>
     <dimen name="text_copyright">14sp</dimen>
 
 </resources>

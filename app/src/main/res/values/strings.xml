@@ -11,5 +11,8 @@
 Manufacturer: %3$s
 .........SDK: %4$d (%5$s)
 ..Resolution: %6$d*%7$d"</string>
+    <string name="url_sc_github">https://github.com/by-syk/DeviceModel</string>
+
+    <string name="menu_view_sc">View source code</string>
 
 </resources>

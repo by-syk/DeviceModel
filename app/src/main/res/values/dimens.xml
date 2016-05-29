@@ -11,7 +11,8 @@
     <dimen name="unit_padding">8dp</dimen>
 
     <dimen name="text_info">14sp</dimen>
-    <dimen name="text_days">96sp</dimen>
+    <dimen name="text_days1">96sp</dimen>
+    <dimen name="text_days2">22sp</dimen>
     <dimen name="text_copyright">12sp</dimen>
 
 </resources>
