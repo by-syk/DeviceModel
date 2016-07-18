@@ -1,4 +1,4 @@
-# DeviceModel
+# Device Model
 
 Show simple info of Android devices.
 
